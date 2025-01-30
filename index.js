@@ -24,4 +24,14 @@ const sumaCuarta = sumaFactory(1000)
 console.log(sumaCuarta(5))
 
 
+function add(n) {
+    return (b)=>{
+      return (n+b)
+    }
+  }
+  
+  var addTwo = add(5);
+  addTwo(10); // 15 
+  
+  add(5)(10)
 
